@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laracarte</title>
+        <title>{{page_title($title ?? '')}}</title>
+        <!-- <title>{{isset($title) ? $title.'|' :''}} Laravel- List of artisans</title> -->
+        
         <!-- font awesome: pour les icons -->
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- open sans google font: pour la policde-->
