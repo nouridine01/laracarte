@@ -1,7 +1,7 @@
 <?php
 	if(!function_exists('page_title')){
 		function page_title($title){
-			$base_tile ='Laravel- List of artisans';
+			$base_tile =config('app.name').' - List of artisans';
 			if($title == ''){
 				return $base_tile;
 			}else{
