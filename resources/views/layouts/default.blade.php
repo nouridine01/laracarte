@@ -8,7 +8,7 @@
         <!-- <title>{{isset($title) ? $title.'|' :''}} Laravel- List of artisans</title> -->
         
         <!-- font awesome: pour les icons -->
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/733d7a2557.js"></script>
         <!-- open sans google font: pour la policde-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
@@ -17,11 +17,7 @@
 
         <style type="text/css">
             body{
-                font-family: 'Open Sans', sans-serif;
-            }
-            footer{
-                margin-top: 4em;
-                margin-bottom: 4em;
+                padding-top: 80px;
             }
         </style>
 
